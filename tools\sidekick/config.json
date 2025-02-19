@@ -5,8 +5,11 @@
         "id": "library",
         "title": "Library",
         "environments": ["edit"],
+        "isPalette": true,
+        "paletteRect": "top: 50px; bottom: 210px; left: 20px; height: calc(100vh - 60px); width: 800px;",
         "url": "/tools/sidekick/library.html",
-        "includePaths": ["**.docx**"]
+        "includePaths": ["**.docx**"],
+        "passConfig": true
       }
     ]
   }
