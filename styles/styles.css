@@ -11,13 +11,13 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* colors (ChatGPT Dark Mode-inspired) */
+  --background-color: #343541;   /* Dark gray background */
+  --light-color: #444654;        /* Slightly lighter dark for contrast sections */
+  --dark-color: #1A1A1B;         /* Even darker elements or accents */
+  --text-color: #F0F6FC;         /* Light text for better readability in dark mode */
+  --link-color: #3AA0FF;         /* Bright blue accent for links */
+  --link-hover-color: #539BF5;   /* Darker blue for link hover states */
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
